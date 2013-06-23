@@ -1,4 +1,4 @@
-// Connect to an HTTP URL and write the response to _debugger.start(argv, stdin, stdout)
+// Connect to an HTTP URL and write the response to stdout
 var http = require('http'),
     url = require('url'),
     target = url.parse(process.argv[2]);
